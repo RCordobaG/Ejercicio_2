@@ -17,7 +17,7 @@ class RecyclerViewActivity : AppCompatActivity() {
         val songListData = arrayListOf(
             Song("A pile of roses","The woods are calling"),
             Song("A melancholic sea shanty","The deep beyond"),
-            Song("A sky of flashing headlights","My guitar knows my name"),
+            Song("A sky of headlights","My guitar knows my name"),
             Song("A walk to the abyss","Taking the dogs outs")
         )
 

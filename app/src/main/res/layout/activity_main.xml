@@ -4,53 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/relative">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonFrame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Frame"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="89dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonLinear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonFrame"
+        android:layout_marginTop="70dp"
+        android:text="Linear"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="190dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonRecycler"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonLinear"
+        android:layout_marginTop="70dp"
+        android:text="Recycler"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="302dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonComponents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_below="@id/buttonRecycler"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:text="Componentes"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="416dp" />
 
-    <Button
-        android:id="@+id/button5"
+    <RatingBar
+        android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="529dp" />
+        android:layout_below="@id/textView"
+        android:layout_marginTop="40dp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonComponents"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Calificanos" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="631dp" />
+        android:layout_below="@id/ratingBar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
 </RelativeLayout>
