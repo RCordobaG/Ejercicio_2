@@ -3,7 +3,7 @@ package com.rodricorgom.Ejercicio2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class FrameLayout : AppCompatActivity() {
+class FrameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_frame_layout)

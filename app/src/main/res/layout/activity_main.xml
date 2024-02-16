@@ -46,7 +46,7 @@
         android:layout_below="@id/buttonRecycler"
         android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
-        android:text="Componentes"
+        android:text="Componentes/Constrain"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="416dp" />
 
@@ -72,10 +72,18 @@
         android:id="@+id/buttonEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Enviar comentarios"
         android:layout_below="@id/ratingBar"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tituloRelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Relative Layout"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>
