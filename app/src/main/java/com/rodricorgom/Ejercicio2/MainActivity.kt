@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
-        val intent = Intent(this, RecyclerViewActivity::class.java)
+        val intent = Intent(this, ComponentesGraficos::class.java)
         startActivity(intent)
     }
 }

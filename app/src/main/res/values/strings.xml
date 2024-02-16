@@ -43,4 +43,13 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
+    <string-array name="edades">
+        <item>18-24</item>
+        <item>25-32</item>
+        <item>33-42</item>
+        <item>43-60</item>
+        <item>61+</item>
+    </string-array>
+
 </resources>
